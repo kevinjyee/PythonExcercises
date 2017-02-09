@@ -6,11 +6,20 @@ are some sample runs:'''
 
 
 def main():
-  a,b,c = eval(input("Enter three edges: "));
-  if(a+b < c or b+c < a or a+c < b):
-      print("The input is invalid");
-  else:
-      print(a+b+c);
+    a,b = eval(input("Enter a point's x- and y-coordinates: "));
+    # y = mx + b
+    # m = -.5
+    # b = 100
+
+    if(a > 200 or b > 100):
+        print("The point is not in the triangle");
+        return;
+    if(b > -.5*a+100):
+        print ("The point is not in the triangle");
+    else:
+        print("The point is in the triangle");
+
+
 
 
 

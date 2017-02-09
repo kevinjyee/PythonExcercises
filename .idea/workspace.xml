@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c56d5c6d-0fc4-489e-95a1-4b27b20f7cb8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Excercise02_21.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Excercise04_19.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Excercise04_27.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Excercise05_19.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Excercise05_23.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Excercise05_27.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Excercise05_41.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Excercise05_37.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Excercise05_43.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Excercise04_27.py" afterPath="$PROJECT_DIR$/Excercise04_27.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,16 +30,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Excercise02_07.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Excercise02_07.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Excercise05_27.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Excercise05_27.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -57,8 +43,8 @@
       <file leaf-file-name="Excercise05_41.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Excercise05_41.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="10" />
+            <state relative-caret-position="342">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="38" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -84,11 +70,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Excercise04_27.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Excercise04_27.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Excercise04_27.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            <state relative-caret-position="442">
+              <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Excercise05_37.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Excercise05_37.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Excercise05_43.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Excercise05_43.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -109,16 +115,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
               <caret line="331" column="0" lean-forward="false" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Excercise01_11.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Excercise01_11.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -171,10 +167,12 @@
         <option value="$PROJECT_DIR$/Excercise05_19.py" />
         <option value="$PROJECT_DIR$/Excercise05_23.py" />
         <option value="$PROJECT_DIR$/Excercise05_27.py" />
-        <option value="$PROJECT_DIR$/Excercise05_41.py" />
         <option value="$PROJECT_DIR$/Excercise04_19.py" />
         <option value="$PROJECT_DIR$/Excercise02_21.py" />
         <option value="$PROJECT_DIR$/Excercise04_27.py" />
+        <option value="$PROJECT_DIR$/Excercise05_37.py" />
+        <option value="$PROJECT_DIR$/Excercise05_41.py" />
+        <option value="$PROJECT_DIR$/Excercise05_43.py" />
       </list>
     </option>
   </component>
@@ -220,58 +218,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/python-3.6.0.exe" />
   </component>
-  <component name="RunManager" selected="Python.Excercise02_21">
-    <configuration default="false" name="Excercise05_19" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLiang" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Excercise05_19.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Excercise05_23" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLiang" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Excercise05_23.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Excercise05_27" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLiang" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Excercise05_27.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Excercise05_43">
     <configuration default="false" name="Excercise05_41" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -302,6 +249,57 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonLiang" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Excercise02_21.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Excercise04_27" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonLiang" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Excercise04_27.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Excercise05_37" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonLiang" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Excercise05_37.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Excercise05_43" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonLiang" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Excercise05_43.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -441,19 +439,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Excercise05_19" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Excercise05_23" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Excercise05_27" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Excercise05_41" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Excercise02_21" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Excercise05_41" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Excercise02_21" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Excercise04_27" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Excercise05_37" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Excercise05_43" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Excercise02_21" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Excercise05_41" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Excercise05_27" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Excercise05_23" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Excercise05_19" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Excercise05_43" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Excercise05_37" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Excercise04_27" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Excercise02_21" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Excercise05_41" />
       </list>
     </recent_temporary>
   </component>
@@ -479,7 +477,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -520,22 +518,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Excercise04_09.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="23" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Excercise04_11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="19" lean-forward="true" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Excercise04_13.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -841,14 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Excercise05_41.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Excercise05_27.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -899,8 +873,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Excercise04_27.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        <state relative-caret-position="442">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Excercise05_37.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Excercise05_41.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="38" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Excercise05_43.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding />
         </state>
       </provider>
