@@ -12,11 +12,10 @@ def main():
     """
     print(funword)
 
-
-    word = "   FFFFFFF   U     U   NN     NN"
-
-
-    print(word)
-
+    print("    FFFFFFF   U     U   NN     NN")
+    print("    FF        U     U   NNN    NN")
+    print("    FFFFFFF   U     U   NN N   NN")
+    print("    FF         U   U    NN  N  NN")
+    print("    FF          UUU     NN    NNN")
 if __name__ == '__main__':
     main()

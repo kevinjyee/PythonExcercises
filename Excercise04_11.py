@@ -50,7 +50,10 @@ def is_leapyear(year):
         return False
 
 def main():
-    month,year = eval(input("Enter the month and years: "));
+    month =input("Enter the month and years: ");
+    year = input("Enter the number of years: ");
+    month = int(month)
+    year = int(year)
     str_month = monthsdict[month];
 
     isleap = is_leapyear(year);

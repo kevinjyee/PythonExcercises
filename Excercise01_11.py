@@ -16,9 +16,9 @@ Chapter 1 Exercise 11:
 import math
 
 def calculate_population(POP,YEARS):
-    birthRateInSeconds = 7.0
-    deathRateInSeconds = 13.0
-    immigrantsInSeconds = 45.0
+    birthRateInSeconds = 7
+    deathRateInSeconds = 13
+    immigrantsInSeconds = 45
     secondsperYear = 24*60*60*365;
 
     numBirths = secondsperYear/birthRateInSeconds
@@ -26,8 +26,7 @@ def calculate_population(POP,YEARS):
     numImmigrants = secondsperYear/immigrantsInSeconds
     for i in range(0,YEARS):
         POP += (numBirths + numImmigrants - numDeaths);
-        print(((math.floor(POP))));
-
+        print(((int(POP))));
 
 
 
