@@ -9,9 +9,10 @@ def end_other(a, b):
     shorter = alower
 
   print (longer[-len(shorter):]);
+  print (shorter);
   return longer[:-len(shorter)] == shorter
 
 def main():
-    print(str(end_other("hiabc","AcC")));
+    print(str(end_other("hiabc","abc")));
 
 main()
