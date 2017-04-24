@@ -1,16 +1,16 @@
 #  File: recursion3.py
 
-#  Description:
+#  Description: solves recursion exercises 3
 
-#  Student Name:
+#  Student Name: Kevin Yee
 
-#  Student UT EID:
+#  Student UT EID: kjy252
 
 #  Course Name: CS 303E
 
 #  Unique Number:
 
-#  Date Created:
+#  Date Created: 041917
 
 #  Date Last Modified:
 
@@ -25,25 +25,37 @@
 # continuing to the end of the array. The caller can specify the
 # whole array simply by passing start as 0. No loops are needed --
 # the recursive calls progress down the array.
-# def groupSum(start, nums, target):
-
+def groupSum(start, nums, target):
+    if(len(nums) == start):
+        return target ==0;
+    else:
+        return groupSum(start+1,nums,target) or groupSum(start+1,nums,target-nums[start]);
 
 
 # Given an array of ints, is it possible to choose a group of some
 # of the ints, beginning at the start index, such that the group
 # sums to the given target? However, with the additional constraint
 # that all 6's must be chosen. (No loops needed.)
-# def groupSum6(start, nums, target):
-
-
+def groupSum6(start, nums, target):
+    if(start >= len(nums)):
+        return target==0;
+    else:
+        if(nums[start] == 6):
+            return groupSum6(start+1,nums,target-nums[start]);
+        else:
+            return groupSum6(start+1,nums,target) or groupSum6(start +1, nums,target-nums[start]);
 
 # Given an array of ints, is it possible to choose a group of some
 # of the ints, such that the group sums to the given target with this
 # additional constraint: If a value in the array is chosen to be in
 # the group, the value immediately following it in the array must
 # not be chosen. (No loops needed.)
-# def groupNoAdj(start, nums, target):
+def groupNoAdj(start, nums, target):
+    if(start >= len(nums)):
+        return target==0;
 
+    else:
+        return groupNoAdj(start+1,nums,target) or groupSum6(start +2, nums,target-nums[start]);
 
 
 # Given an array of ints, is it possible to choose a group
@@ -52,8 +64,17 @@
 # 5 in the array must be included in the group. If the value
 # immediately following a multiple of 5 is 1, it must not
 # be chosen. (No loops needed.)
-# def groupSum5(start, nums, target):
-
+def groupSum5(start, nums, target):
+    if(start >= len(nums)):
+        return target==0;
+    else:
+        if(nums[start] % 5 ==0):
+            if(start != len(nums)-1 and nums[start+1] == 1):
+                return groupSum5(start+2,nums,target-nums[start]);
+            else:
+                return groupSum5(start+1,nums,target-nums[start]);
+        else:
+            return groupSum5(start+1,nums,target) or groupSum5(start +1, nums,target-nums[start]);
 
 
 # Given an array of ints, is it possible to choose a
@@ -65,8 +86,18 @@
 # [1, 2, 2, 2, 5, 2], either all three 2's in the middle
 # must be chosen or not, all as a group. (one loop can
 # be used to find the extent of the identical values).
-# def groupSumClump(start, nums, target):
+def groupSumClump(start, nums, target):
+    if(start >= len(nums)):
+        return target == 0;
+    else:
+        count =0;
+        i = start;
+        value = nums[i];
+        while(i < len(nums) and nums[i] ==value):
+            i += 1;
+            count += 1;
 
+        return groupSumClump(start + count,nums,target-count*value) or groupSumClump(start+count,nums,target);
 
 
 # Given an array of ints, is it possible to divide the
@@ -76,13 +107,19 @@
 # takes whatever arguments you like, and make the
 # initial call to your recursive helper from splitArray().
 # (No loops needed.)
-# def splitArray(nums):
+def splitArray(nums):
+    return splitArrayHelper(0,nums,0)
 
-
-# def splitArrayHelper():
-
-
-
+def splitArrayHelper(start,nums,total):
+    if(start >= len(nums)):
+        return total == 0;
+    else:
+        if(splitArrayHelper(start+1,nums,total+nums[start])):
+            return True;
+        if(splitArrayHelper(start+1,nums,total-nums[start])):
+            return True;
+        else:
+            return False;
 # Given an array of ints, is it possible to divide the
 # ints into two groups, so that the sum of one group
 # is a multiple of 10, and the sum of the other group
@@ -90,11 +127,18 @@
 # Write a recursive helper method that takes whatever
 # arguments you like, and make the initial call to your
 # recursive helper from splitOdd10(). (No loops needed.)
-# def splitOdd10(nums):
+def splitOdd10(nums):
+    return splitOdd10Helper(0,nums,0,0);
 
-
-# def splitOdd10Helper():
-
+def splitOdd10Helper(start,nums,oddcount,tencount):
+    if(start >= len(nums)):
+        return oddcount % 2 ==1 and tencount % 10 ==0;
+    else:
+        if(splitOdd10Helper(start+1,nums,oddcount+nums[start],tencount)):
+            return True;
+        if(splitOdd10Helper(start+1,nums,oddcount,tencount+nums[start])):
+            return True;
+        return False;
 
 
 # Given an array of ints, is it possible to divide the ints
@@ -103,12 +147,20 @@
 # multiple of 5 must be in one group, and all the values
 # that are a multiple of 3 (and not a multiple of 5)
 # must be in the other. (No loops needed.)
-# def split53(nums):
+def split53(nums):
+    return split53Helper(0,nums,0);
 
-# def split53Helper():
-
-
-
+def split53Helper(start,nums,total):
+    if(start >= len(nums)):
+        return  total == 0;
+    else:
+        if(nums[start] % 5 ==0):
+            return split53Helper(start+1,nums,total+nums[start]);
+        else:
+            if(nums[start]%3 ==0):
+                return split53Helper(start+1,nums,total-nums[start]);
+            else:
+               return split53Helper(start+1,nums,total+nums[start]) or split53Helper(start+1,nums,total-nums[start]);
 
 #######################################################################################################
 #######################################################################################################
